@@ -124,6 +124,9 @@ run update
 [See also yocto documentation](https://wiki.yoctoproject.org/wiki/index.php?title=TipsAndTricks/Patching_the_source_for_a_recipe&oldid=61374)
 ``````
 devtool modify arrowkey-mod
+``````
+edit file(s) in *oe-core/build/workspace/sources/arrowkey-mod/*
+``````
 bitbake arrowkey-mod
 devtool deploy-target -s arrowkey-mod root@192.168.1.116
 devtool reset arrowkey-mod
